@@ -3,6 +3,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+
 # 获取自带的数据集
 iris_data = load_iris()  # 返回Bunch对象，类似字典
 print('key for iris_data:\n{}'.format(iris_data.keys()))
